@@ -25,8 +25,8 @@ function App() {
   const [editingMessageIndex, setEditingMessageIndex] = useState(null);
   const [userInput, setUserInput] = useState("");
   const [messages, setMessages] = useState([]);
-  const apiKey = "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"; //Here you want exchange Api key
-  //Old key= const apiKey = "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";
+  const apiKey = ""; //Here you want exchange Api key
+  //const apiKey = "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";
 
   const submitHandle = async (e) => {
     e.preventDefault();
